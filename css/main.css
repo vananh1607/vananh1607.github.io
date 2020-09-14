@@ -1,0 +1,253 @@
+/* CSS Document */
+body 
+{
+	padding: 0px;
+	margin: 0px;
+	background-color: darkgray
+}
+.container
+{ 
+    width: 1280px;
+	height: 3000px;
+	background-color: antiquewhite;
+	text-align: center;
+	font-size: 20px;
+	font-family: arial;
+	margin: 0 auto;
+	line-height: 80px;
+}
+.header{
+	width: 1280px;
+	height: 100px;
+	font-size: 15px;
+}
+.logo{
+	width: 300px;
+	height: 25px;
+	float: left;
+	margin-top: 80px;
+	margin-left: 30px;
+}
+.menu{
+	width: 1280px;
+	height: 670px;
+	float: left;
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+}
+.menu ul{
+	list-style: none;
+}
+.menu ul li {
+	width: 140px;
+	height: 80px;
+	float: left;
+	color: white;
+	position : relative;
+	margin-top: 70px;		
+}
+.menu ul li a {
+	color :white;
+	text-decoration: none;
+}
+ul li:hover {
+	background-color: darkgray;
+	transition: all 1s ease;
+}
+ul li ul {
+	position: absolute;
+	top: 80px;
+	visibility: hidden;
+	background-color:darkgray;
+}
+
+ul li ul li{
+    margin-left: -40px;
+}
+ul li:hover ul{
+	visibility: visible;
+	background-color:dimgray;
+}
+.button{
+	width: 200px;
+	height: 40px;
+	background-color: black;
+	border-radius: 20px;
+	margin: 30px;
+	border-style:solid;
+	font-size: 20px;
+}
+.menu but_a{
+	text-decoration: none;
+	color: white;
+}
+.menu button:hover a {
+	color: black;
+}
+
+.menu button:hover{
+	background-color:white;
+	border-style: none;
+}
+
+
+.slider {
+	width: 100%;
+	height: 670px;
+	background-color:gainsboro;
+}
+.slideshow-container {
+  max-width: 1280px;
+  height: 670px;
+}
+/* Ẩn các slider */
+.mySlides {
+    display: none;
+	height: 670px;
+}
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: darkgrey;
+}
+.pic {
+	width: 1000px;
+	height: 420px;
+	padding: 0 140px 0  140px   ;
+	background-color:dimgray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(../images/background3.jpg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+		
+}
+.backgruond1{
+	width: 1000px;
+	height: 420px;
+	padding: 0 140px 0  140px   ;
+	background-color:#292929;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: -50px;
+}
+.backgruond2{
+	width: 1000px;
+	height: 420px;
+	padding: 0 140px 0  140px   ;
+	background-image: url(../images/background3.jpg.png);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+		
+}
+.pic_a
+{
+	width: 230px;
+	height: 220px;
+	background-color:white;
+	float: left;
+    margin: 10px ;
+	
+}
+
+.pic_b{
+	width: 1280px;
+	height: 580px;
+	background-color: #292929;
+	line-height: 30px;
+}
+.pic_2b{
+	width: 50%;
+	height: 580px;
+	float: left;
+}
+.pic_2c{
+	width: 50%;
+	height:auto;
+	float: left;
+	margin-top: 10px;
+    color: white
+}
+.pic_2b img{
+	height: 100%;
+	
+}
+.footer {
+	width: 1280px;
+	height: 60px;
+	background-color: dimgray;
+}
+.text{
+	width: 1250px;
+	height: 200px;
+	color: white;
+	margin-left: 10px;
+	margin-top: 70px;
+}
+#line{
+	width: 250px;
+	margin-top: -1px;
+	margin-right: 760px;
+	float: right;
+}
+.text p {
+	font-size: 20px;
+	font-family: Microsoft Tai Le;
+	font-style: italic;
+	margin-left: 220px;
+	margin-top: 150px;
+	float: left;
+}
+.text h1 {
+	width: 900px;
+	font-size: 80px;
+	font-family: Microsoft Yi Baiti;
+	color: darkgoldenrod;
+	margin-top: -3px;
+	float: left;
+}
+#p2{
+	font-size: 20px;
+	font-family:Microsoft Tai Le ;
+	font-style: italic;
+	margin-left: 320px;
+	margin-top: -50px;
+	float: left;
+	
+}
+
+#p3{
+	font-size: 20px;
+	font-family: Microsoft Tai Le;
+	font-style: italic;
+	margin-left: 20px;
+	margin-top: -50px;
+	float: left;
+	color: darkgoldenrod;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
